@@ -1,0 +1,1 @@
+https://www.figma.com/file/Rg3v54Bd1ZaVPXofhxCtB6/Strato-Automation?node-id=1%3A2
