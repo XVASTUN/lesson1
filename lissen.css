@@ -1,29 +1,16 @@
 .conteyner{
-    max-width: 1440px;
+    width: 1440px;
     border: red solid 1px;
     margin:0 auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-@media(max-width:1440px){
-    .conteyner{
-        width: 1920px;
-    }
-}
-@media(max-width:1440px){
-    .conteyner{
-        width: 1440px;
-    }
-}
-@media(max-width:900px){
-    .conteyner{
-        max-width: 768px;
-    }
-}
+
 .heder_top{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-height: 41px;
+    border-bottom: 1px solid black;
 }
 .hed_txt{
     display: flex;
@@ -31,6 +18,8 @@
     flex-direction: row;
     min-width: 30%;
     font-size: 16px;
+    color: #252930;
+    text-decoration: none;
 }
 .hed_txt_bot{
     display: flex;
@@ -71,6 +60,9 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.tower_img{
+    width: 48.5%;
+}
 .tower_txt{
     text-align: center;
     font-size: 54px;
@@ -83,9 +75,10 @@
     margin-top: 105px;
 }
 .product_txt{
-    Width : 583px;
+    Width : 41%;
     Height : 318px;
-    margin: 198px 175px 0 0;
+    margin: 120px 0 0 38%;
+    border: 1px solid black;
 }
 .product_txt_zag{
     font-size: 19px;
@@ -97,14 +90,30 @@
 }
 .product_txt_info{   
     font-size: 16px;
+    margin-left: 3%;
 }
 .product_txt_end{
+    width: 20%;
+    padding-bottom: 10px;
     margin-left: 7%;
     font-size: 16px;
-    border-bottom: orange solid 1px;
+    border-bottom: orange solid 2px;
+}
+.color{
+    color: #252930;
+    text-decoration: none;
 }
 .product_img{
-    margin: 88px 0 0 18%;
+    border: 1px solid black;
+    margin: 10px 30% 0 0%;
+    position: absolute;
+}
+.product_img_pod{
+    margin: 10% 20% 0 0;
+    position: absolute;
+}
+.product_img_pod_1{
+    position: absolute;
 }
 .t{
     color: orange;
@@ -117,17 +126,46 @@
     flex-direction: row;
     justify-content: space-between;
     margin-left: 3%;
+    margin-top: 227px;
 }
 .solutions_hed_l_zag{
     font-size: 24px;
+}
+.solutions_bloc1_img{
+    width: 100%;
 }
 .solutions_hed_l_txt{
     font-size: 36px;
     color: #252930CC;
 }
 .solutions_hed_r{
-    margin: 95px 3% 0 0;
-
+    width: 100px;
+    margin: 145px 40px 0 0; 
+    padding-bottom: 10px;
+    border-bottom: orange 2px solid;
+}
+.solutions_bloc1_img{
+    border: black 1px solid;
+    background-color: #F87200;
+}
+.solutions_bloc1_imgg{
+    border: black 1px solid;
+}
+.solutions_bloc1_img_txt{
+    position: absolute;
+    top: 250%;
+    left: 7%;
+    font-size: 36px;
+}
+.solutions_bloc1_img_txt1{
+    position: absolute;
+    text-align: center;
+    padding-top: -2px;
+    min-width: 158px;
+    left: 23%;
+    top: 251%;
+    font-size: 12px;
+    background-color:#E8E9EA ;
 }
 .solutions_bloc{
     display: flex;
@@ -199,10 +237,14 @@
     flex-direction: row;
     margin: 128px 0 0 11%;
 }
+.storis_img{
+    width: 50%;
+}
 .storis_txt{
     min-width: 44%;
     max-height: 295px;
     border: 1px solid #252930;
+    margin-right: 12%;
 }
 .storis_txt_top{
     font-size: 35px;
@@ -219,20 +261,28 @@
 .hz{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin: 9% 0 0 3%;
-}
-.hz_l{
-    max-height: 30%;
-    min-width: 31%;
     background-color: #F87200;
+    height: 468px;
+}
+.hz_hz{
+    display: flex;
+    flex-direction: column;
+}
+.hz_r{
+    width: 61%;
+    margin-right: 40px;
 }
 .hz_l_zag{
     font-size: 36px;
-    margin: 32% 0 0 7%;
+    margin-top: 30%;
 }
 .hz_l_txt{
-
-    margin: 17% 0 0 7%;
+    max-width: 40%;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-top: 10%;
 }
 .news{
     display: flex;
@@ -250,7 +300,29 @@
 }
 .news_l{
     margin-left: 4%;
+}
+.news_r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#F87200 ;
+    width: 35%;
+    height: 460px;
+}
+.news_r_zag{
 
+}
+.news_r_img{
+    width: 100%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+}
+.nesw_r_txt{
+    margin-bottom: 7.4%;
+    margin-left: 7%;
+    border-bottom: black solid 2px;
+    padding-bottom: 10px;
+    width: 26%;
 }
 .news_l_zag{
     font-size: 36px;
